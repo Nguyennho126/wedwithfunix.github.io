@@ -1,0 +1,149 @@
+    #container{
+    margin:0 5%;
+    background-color:WhiteSmoke  ;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    p, h2{
+        font-family: sans-serif;
+    }
+     h1{
+        font-family:Serif;
+        color: white;
+    }
+    .header p{
+        color: white;
+    }
+    .menu{
+        top:10px;
+     
+    }
+        
+    .right{
+    float: right;   
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray ;
+    }
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    }
+
+    li a:hover {
+    background-color: blue;
+    }
+
+
+    .header{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png);
+    background-size:cover;
+    padding-top:50px;
+    }
+    .content{
+        margin-left: 3%;  
+    }
+   
+    }
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+     
+    }
+    .main  div{
+        width:33%;
+        float: left;
+        height: auto;
+    }   
+  
+    img {
+    margin-top: 6%;
+     width:90%;    
+    }
+   
+   
+    .main  div{
+        width:33%;
+        height: auto;
+    }   
+    .main a{
+        color:DeepSkyBlue  
+    }
+     
+    .main p{
+        font-size: 13px;
+    }
+    
+    @media only screen and (max-width: 768px){
+        .main  div{
+        width:100%;
+        float: left;
+        height: auto;
+        }
+        .header{background-image:none;
+        height: 100px;
+        padding-top:20px;
+        padding-bottom:150px;
+        }
+        li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 5px;
+        text-decoration: none;
+        font-size: 13px;
+        }
+        p{
+            font-size: 13px;
+            
+        }
+        h1{
+            color: black;
+        }
+        .header p{
+        color: black;
+    }
+    }
+     
+    @media only screen and (min-width: 768px) and (max-width: 992px){
+        .main  div{
+        width:50%;
+        float: left;
+        height: auto;
+        }
+        .header{background-image:none;
+        height: 100px;
+        padding-top:20px;
+        padding-bottom:150px;
+        }
+        li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 15px 10px;
+        text-decoration: none; 
+        }
+         h1{
+            color: black;
+        }
+        .header p{
+        color: black;
+    }
+    }
+    
+    
